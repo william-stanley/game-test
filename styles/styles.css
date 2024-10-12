@@ -1,0 +1,83 @@
+html{
+	overflow: hidden;
+	background: url(../media/background.png);
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes cursor{
+    0% { 
+        cursor: url(../cursor/1.png), none;
+    }
+    12.5% { 
+        cursor: url(../cursor/2.png), none;
+    }
+    25% { 
+        cursor: url(../cursor/3.png), none;
+    }
+	37.5% { 
+        cursor: url(../cursor/4.png), none;
+    }
+	50% { 
+        cursor: url(../cursor/5.png), none;
+    }
+	62.5% { 
+        cursor: url(../cursor/6.png), none;
+    }
+	75% { 
+        cursor: url(../cursor/7.png), none;
+    }
+	87.5% { 
+        cursor: url(../cursor/8.png), none;
+    }
+}
+
+#ui{
+	position: absolute;
+	width: 509px;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+}
+
+#play{
+	position: absolute;
+	width: 439px;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -25%);
+	cursor: pointer;
+}
+
+#play:hover{
+	content:url(../media/play2.png);
+}
+
+#popup{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+
+#poop{
+	position:absolute;
+	object-fit:fill;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+}
+
+#ip{
+	position: absolute;
+	font-size: 100px;
+	font-family: Impact;
+	color:rgb(255, 0, 0);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	z-index: 500;
+}
